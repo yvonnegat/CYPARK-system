@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yvonnegat/CYPARK-system/static/css/main.3c9a1d8f.css",
-    "main.js": "/yvonnegat/CYPARK-system/static/js/main.a18723f6.js",
-    "static/js/453.9d47f95f.chunk.js": "/yvonnegat/CYPARK-system/static/js/453.9d47f95f.chunk.js",
-    "index.html": "/yvonnegat/CYPARK-system/index.html",
-    "main.3c9a1d8f.css.map": "/yvonnegat/CYPARK-system/static/css/main.3c9a1d8f.css.map",
-    "main.a18723f6.js.map": "/yvonnegat/CYPARK-system/static/js/main.a18723f6.js.map",
-    "453.9d47f95f.chunk.js.map": "/yvonnegat/CYPARK-system/static/js/453.9d47f95f.chunk.js.map"
+    "main.css": "/CYPARK-system/static/css/main.3c9a1d8f.css",
+    "main.js": "/CYPARK-system/static/js/main.85a867a2.js",
+    "static/js/453.9d47f95f.chunk.js": "/CYPARK-system/static/js/453.9d47f95f.chunk.js",
+    "index.html": "/CYPARK-system/index.html",
+    "main.3c9a1d8f.css.map": "/CYPARK-system/static/css/main.3c9a1d8f.css.map",
+    "main.85a867a2.js.map": "/CYPARK-system/static/js/main.85a867a2.js.map",
+    "453.9d47f95f.chunk.js.map": "/CYPARK-system/static/js/453.9d47f95f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c9a1d8f.css",
-    "static/js/main.a18723f6.js"
+    "static/js/main.85a867a2.js"
   ]
 }
