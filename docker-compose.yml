@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+  
+  orion:
+    image: fiware/orion
+    container_name: orion
+    ports:
+      - "1026:1026"
+    depends_on:
+      - mongodb
+  
+  cygnus:
+    image: fiware/cygnus-ngsi
+    container_name: cygnus
+    ports:
+      - "5050:5050"
+      - "5080:5080"
+  
+  quantumleap:
+    image: smartsdk/quantumleap
+    container_name: quantumleap
+    ports:
+      - "8668:8668"
+  
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+    container_name: elasticsearch
+    environment:
+      - node.name=elasticsearch
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.10.0
+    container_name: kibana
+    ports:
+      - "5601:5601"

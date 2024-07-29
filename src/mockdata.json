@@ -1,0 +1,78 @@
+[
+    {
+        "id": "P001",
+        "type": "ParkingSpot",
+        "availability": {
+            "type": "Boolean",
+            "value": true
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [-122.4194, 37.7749]
+            }
+        },
+        "timestamp": {
+            "type": "DateTime",
+            "value": "2024-05-23T08:00:00Z"
+        }
+    },
+    {
+        "id": "P002",
+        "type": "ParkingSpot",
+        "availability": {
+            "type": "Boolean",
+            "value": false
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [-122.4196, 37.7751]
+            }
+        },
+        "timestamp": {
+            "type": "DateTime",
+            "value": "2024-05-23T08:05:00Z"
+        }
+    },
+    {
+        "id": "P003",
+        "type": "ParkingSpot",
+        "availability": {
+            "type": "Boolean",
+            "value": true
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [-122.4198, 37.7753]
+            }
+        },
+        "timestamp": {
+            "type": "DateTime",
+            "value": "2024-05-23T08:10:00Z"
+        }
+    },
+    {
+        "id": "P004",
+        "type": "ParkingSpot",
+        "availability": {
+            "type": "Boolean",
+            "value": false
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [-122.4200, 37.7755]
+            }
+        },
+        "timestamp": {
+            "type": "DateTime",
+            "value": "2024-05-23T08:15:00Z"
+        }
+    }
+]

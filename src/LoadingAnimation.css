@@ -1,0 +1,61 @@
+/* LoadingAnimation.css */
+.loader {
+    width: 40px; /* Increase width for a larger circle */
+    height: 40px; /* Increase height for a larger circle */
+    border-radius: 50%;
+    background: #3498db; /* Blue background color */
+    animation: l9 2s infinite;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering trick */
+  }
+  
+  @keyframes l9 {
+    0% {
+      box-shadow: 
+        0 -20px #2980b9, calc(20px * 0.707) calc(-20px * 0.707) #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+    12.5% {
+      box-shadow: 
+        0 0 #2980b9, calc(20px * 0.707) calc(-20px * 0.707) #3498db, 20px 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+    25% {
+      box-shadow: 
+        0 0 #2980b9, 0 0 #3498db, 20px 0 #2980b9, calc(20px * 0.707) calc(20px * 0.707) #3498db,
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+    37.5% {
+      box-shadow: 
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, calc(20px * 0.707) calc(20px * 0.707) #3498db,
+        0 20px #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+    50% {
+      box-shadow: 
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 20px #2980b9, calc(-20px * 0.707) calc(20px * 0.707) #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+    62.5% {
+      box-shadow: 
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, calc(-20px * 0.707) calc(20px * 0.707) #3498db, -20px 0 #2980b9, 0 0 #3498db;
+    }
+    75% {
+      box-shadow: 
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, 0 0 #3498db, -20px 0 #2980b9, calc(-20px * 0.707) calc(-20px * 0.707) #3498db;
+    }
+    87.5% {
+      box-shadow: 
+        0 -20px #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, calc(-20px * 0.707) calc(-20px * 0.707) #3498db;
+    }
+    100% {
+      box-shadow: 
+        0 -20px #2980b9, calc(20px * 0.707) calc(-20px * 0.707) #3498db, 0 0 #2980b9, 0 0 #3498db,
+        0 0 #2980b9, 0 0 #3498db, 0 0 #2980b9, 0 0 #3498db;
+    }
+  }
+  
