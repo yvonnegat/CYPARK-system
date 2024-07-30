@@ -1,6 +1,8 @@
 # CyPark Smart Parking System
 
 CyPark is a smart parking system that utilizes React.js for the frontend, Firebase for the backend, and various sensors to monitor parking spot occupancy. The system aims to provide real-time parking availability to users, enhancing the efficiency of parking management.
+To view the site click this link https://yvonnegat.github.io/CYPARK-system
+
 
 ## Table of Contents
 
